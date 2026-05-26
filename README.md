@@ -8,6 +8,10 @@
 [![Runtime](https://img.shields.io/badge/Runtime-Cursor%20%7C%20Claude%20%7C%20Antigravity-lightgrey)](https://github.com/FranklinNexus/kehan-skills)
 [![Context](https://img.shields.io/badge/Context-China%20Early--Stage%20%7C%20AI%20Era-orange)](PRINCIPLES.md)
 
+<p align="center">
+  <img src="assets/kehan.jpg" alt="Kehan / 董科含" width="440" />
+</p>
+
 <br>
 
 **董科含 / Kehan 的早期创业陪跑操作系统。不是公众号摘录，是可执行的创始人教练框架。**
@@ -17,7 +21,64 @@
 面向 **15–25 岁创始人 · 融资全流程 · 条款与控制感 · AI 时代执行节奏 · Coffee Chat 成长追踪**，  
 封装为可安装 Skill：能拆证据、点瓶颈、给 7 天动作，而不是灌鸡汤。
 
-[看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [边界说明](#边界说明)
+[为什么更好](#为什么这套-skills-更好) · [两大场景](#为什么你需要-kehan-skill) · [看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [FAQ](#faq)
+
+</div>
+
+---
+
+## 为什么这套 Skills 更好
+
+市面上已经有人做了 Paul Graham、张一鸣等人物的 Skill（偏 **扮演、语录、调研展示**）。  
+本系列（含本仓库）走的是另一条路：**可运行的判断框架**，不是聊天角色。
+
+| 维度 | 常见「人物 Skill」 | FranklinNexus Skills（本系列） |
+| --- | --- | --- |
+| 目标 | 像 TA 说话、有氛围 | 像 TA **做判断**：拆瓶颈、要证据、给动作 |
+| 输出 | 长引用、散文感 | `董科含式判断` + 证据缺口 + **本周动作** |
+| 结构 | 往往单文件 Skill | `SKILL.md` + `PLAYBOOK.md`（融资/条款/追踪等复杂路由） |
+| 边界 | 容易越界成「本人代言」 | 明确 **不扮演**、不重建原文、不含私域信息 |
+| 工程化 | 偏 README 展示 | `install.ps1` · `validate.py` · Cursor / Claude / Antigravity |
+| 中国语境 | 多为硅谷通用翻译 | Kehan 侧：**奇绩 / N1 / 年轻创始人 / 条款与控制** |
+
+参考对比：[alchaincyf/paul-graham-skill](https://github.com/alchaincyf/paul-graham-skill) 把 PG 做成「认知操作系统 + 效果示例」——方向接近；  
+**本仓库在「年轻创始人陪跑、融资条款、成长追踪、多平台安装与校验」上更深，且刻意不做语录复读。**
+
+<p align="center">
+  <img src="assets/paul-graham.jpg" alt="Paul Graham" width="200" />
+  &nbsp;&nbsp;
+  <img src="assets/sam-altman.jpg" alt="Sam Altman" width="200" />
+  &nbsp;&nbsp;
+  <img src="assets/zhang-yiming.jpg" alt="Zhang Yiming" width="200" />
+</p>
+
+<p align="center"><sub>同源系列：PG · Sam · 张一鸣 — 见文末链接</sub></p>
+
+---
+
+## 为什么你需要 Kehan skill
+
+约董科含 coffee chat 很有价值，但不是所有问题都适合占用对方时间，也不是所有话都适合当面说出口。
+
+### 1. 效率：不必事事约人聊
+
+- **融资节奏、pitch 结构、投资人反馈归类、term sheet 红线**——很多可以在见面前用 Skill 先跑一轮，带着更好的问题去聊。
+- **Office hour 记录**可整理成「承诺 + 指标 + 下次证据」，减少重复叙述、提高每次对话的信息密度。
+- AI 时代构建变快，瓶颈往往在**判断与结构**；Skill 把「该问什么、缺什么证据」前置，节省双方时间。
+
+### 2. 隐秘性：有些话不必让对方知道
+
+- 你还在犹豫要不要退学、要不要融这一轮、某条条款会不会架空你——这些不一定适合在第一次 coffee chat 里和盘托出。
+- 用 Skill 先在本地厘清：**真实瓶颈、可逆选项、最坏情况**，再决定见谁、说什么、暴露多少。
+- 蒸馏包**不含原文重建、不含私域路径**（见 [`SOURCE_POLICY.md`](SOURCE_POLICY.md)），适合作为你自己的思考沙盒，而不是代替真人关系。
+
+> Skill 是教练框架，不是董科含本人，也不替代律师/投资决策。重要节点仍建议真人 + 专业人士。
+
+---
+
+<div align="center">
+
+[看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [边界说明](#边界说明) · [FAQ](#faq)
 
 </div>
 
@@ -180,6 +241,29 @@ kehan-skills/
 | **PG.skill** | 创业想法 · 写作 · Maker | [paul-graham-skills](https://github.com/FranklinNexus/paul-graham-skills) |
 | **Sam.skill** | 野心 · 复利 · AI 战略 | [sam-altman-skills](https://github.com/FranklinNexus/sam-altman-skills) |
 | **ZYM.skill** | 用户价值 · 组织 · 长期执行 | [zhang-yiming-skills](https://github.com/FranklinNexus/zhang-yiming-skills) |
+
+---
+
+## FAQ
+
+### Contributors 里为什么还显示 Cursor Agent？
+
+**原因（已修复）：** 早期在本机提交时，Cursor IDE 会自动在 commit message 末尾追加：
+
+```text
+Co-authored-by: Cursor <cursoragent@cursor.com>
+```
+
+GitHub 会把这行算作第二位贡献者，所以侧边栏会出现 **Cursor Agent**，即使作者邮箱一直是你的账号。
+
+**当前状态：** 四个仓库的 `main` 历史已重写，去掉上述 trailer 并 force push。  
+用 API 查询时，Contributors **只剩 `FranklinNexus`**。若网页仍显示两人，是 **GitHub 页面缓存**，通常硬刷新或等几小时会更新。
+
+**以后如何避免：** 在 Cursor 设置里关闭自动添加 commit co-author；或提交时用不含 hook 的方式（本仓库维护脚本 `git_commit_clean.py` 可参考）。
+
+### 这和董科含本人是什么关系？
+
+Skill 是**蒸馏后的教练框架**，用于帮你思考与准备对话，**不是**董科含官方账号，也不代表他的投资建议。
 
 ---
 
