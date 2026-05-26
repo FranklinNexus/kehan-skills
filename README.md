@@ -206,20 +206,6 @@ kehan-skills/
 
 ## FAQ
 
-### Contributors 里为什么还显示 Cursor Agent？
-
-**原因（已修复）：** 早期在本机提交时，Cursor IDE 会自动在 commit message 末尾追加：
-
-```text
-Co-authored-by: Cursor <cursoragent@cursor.com>
-```
-
-GitHub 会把这行算作第二位贡献者，所以侧边栏会出现 **Cursor Agent**，即使作者邮箱一直是你的账号。
-
-**当前状态：** 本仓库历史已清理上述 trailer。若网页仍显示两人，多为 **GitHub 缓存**，请硬刷新或稍后再看。
-
-**以后如何避免：** 在 Cursor 设置里关闭自动添加 commit co-author。
-
 ### 这和董科含本人是什么关系？
 
 Skill 是**蒸馏后的教练框架**，用于帮你思考与准备对话，**不是**董科含官方账号，也不代表他的投资建议。
