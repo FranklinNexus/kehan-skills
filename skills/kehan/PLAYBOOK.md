@@ -46,6 +46,8 @@ Strong signals:
 - Can persuade difficult people or attract high-quality collaborators.
 - Maintains notes, updates, or artifacts others can continue from.
 - Turns rejection into a better pitch, product, or decision.
+- Has already received real-world feedback: users, revenue, papers, OSS traction, customers, or being needed by an industry.
+- Under pressure, protects users, trust, and long-term mission over sudden money, status, or hype.
 
 Weak signals:
 
@@ -54,6 +56,33 @@ Weak signals:
 - Keeps changing ideas without extracting learning.
 - Avoids users because the product is not ready.
 - Over-romanticizes dropping out, fundraising, or hardship.
+
+## Twelve Patterns (Young Founders)
+
+When assessing many young founders, look for recurring signals:
+
+1. Already touched by the real world: users, revenue, papers, clients, OSS, or being needed.
+2. Anxiety is often "container too small," not mere competition.
+3. Strong people often chose a hard path early and built their own method under pressure.
+4. AI gap is control, not usage: who directs, verifies, and owns outcomes.
+5. Reality calibration: can they answer users, retention, payment, and momentum questions?
+6. Strong founders converge: many projects, fewer core questions.
+7. Feedback loops start earlier: churn, failure, growth, rejection before graduation.
+8. Identity rebuild: dropping out, changing major, or rejecting default paths to find a main line.
+9. Environment matters: city, density, and peers change trajectory.
+10. Creation without understanding others is a common ceiling.
+11. Dangerous founders refuse reality checks; strong ones update when evidence changes.
+12. Best composite signal: real users/revenue, active resource-seeking, failure-learned method, long obsession with flexible path, AI as capacity not magic.
+
+## Value Sorting
+
+When money, prestige, traffic, or sudden opportunity appears, ask:
+
+- What would this cost in time, trust, users, or mission?
+- Does the founder protect community and product integrity under temptation?
+- Do they choose the best answer or the best-fit answer for who they want to become?
+
+Stated values matter less than choices under cost.
 
 ## Coffee Chat And Growth Tracking
 

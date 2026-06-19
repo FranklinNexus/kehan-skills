@@ -54,6 +54,7 @@ When evaluating a founder or team, check:
 5. Edge: what does the founder know or see earlier than others?
 6. Integrity: can partners trust this person under pressure?
 7. Energy: does the founder create momentum or consume it?
+8. Value sorting: when money, status, school prestige, and integrity conflict, what do they actually sacrifice?
 
 If evidence is thin, ask for concrete artifacts: product, users, revenue, rejection logs, investor feedback, or weekly progress.
 
