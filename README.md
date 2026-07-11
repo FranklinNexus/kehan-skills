@@ -5,7 +5,7 @@
 > _"融资是加速器，不是奖状。创始人自己，才是最早的产品。"_
 
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-blue)](https://github.com/FranklinNexus/kehan-skills)
-[![Runtime](https://img.shields.io/badge/Runtime-Cursor%20%7C%20Claude%20%7C%20Antigravity-lightgrey)](https://github.com/FranklinNexus/kehan-skills)
+[![Runtime](https://img.shields.io/badge/Runtime-Codex%20%7C%20Cursor%20%7C%20Claude%20%7C%20Antigravity-lightgrey)](https://github.com/FranklinNexus/kehan-skills)
 [![Context](https://img.shields.io/badge/Context-China%20Early--Stage%20%7C%20AI%20Era-orange)](PRINCIPLES.md)
 
 <p align="center">
@@ -119,6 +119,18 @@ Kehan 式判断 ❯  档案不是日记，是下次干预的地图。
 ---
 
 ## 安装
+
+### Codex（推荐）
+
+让 Codex 直接从 GitHub 安装本仓库中的 skill，或在克隆后运行：
+
+```powershell
+.\scripts\install.ps1 -Platform codex
+```
+
+安装目标为 `~/.codex/skills/`。重启 Codex 后生效。
+
+### 其他 Agent Runtime
 
 ```powershell
 git clone https://github.com/FranklinNexus/kehan-skills.git
